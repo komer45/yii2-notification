@@ -1,0 +1,38 @@
+{
+    "name": "komer45/yii2-notification",
+    "description": "its a notification module",
+    "keywords": ["yii2", "yii 2", "application", "notification",  "module", "komer45"],
+    "homepage": "https://github.com/komer45/yii2-notification",
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "source": "https://github.com/komer45/yii2-notification"
+    },
+    "authors": [
+        {
+            "name": "Komarov Vlad",
+            "email": "komer45@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-bootstrap": "*"
+    },
+    "require-dev": {
+        "yiisoft/yii2-debug": "*",
+        "yiisoft/yii2-gii": "*"
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "autoload": {
+        "psr-4": {
+            "komer45\\notification\\": ""
+        }
+    },
+    "extra": {
+        "bootstrap": "komer45\\notification\\Bootstrap"
+    }
+}
